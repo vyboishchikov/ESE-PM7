@@ -73,3 +73,7 @@ Girona, <b>2021</b></span></p>
 <p class="MsoNormal"><span style="font-family:Open Sans">Questions
 related to the ESE-PM7 method and program should be addressed to
 <a href="mailto:vyboishchikov@googlemail.com">Sergei Vyboishchikov</a>.</span></p>
+
+<p style='margin-top:6pt'><span style='font-family:Open Sans'>
+A <a href="https://github.com/vyboishchikov/ESE">DFT</a> version of the program based on <b>CM5</b> charges is also available.</p>
+
