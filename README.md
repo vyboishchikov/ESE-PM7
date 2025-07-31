@@ -1,7 +1,5 @@
 # ESE-PM7
-
 ## ESE-PM7: Easy Solvation Energy Evaluation from PM7 charges
-
 ### Introduction and User's Guide
 
 *ESE-PM7* is a simple, non-iterative COSMO-based method for evaluation of *solvation free energies* of molecules and ions for [arbitrary solvents](https://github.com/vyboishchikov/ESE/blob/main/solvent-list.md) [2]. It requires semi-empirical gas-phase PM7 atomic charges only. To obtain the solvation free energy, the COSMO electrostatic term is supplemented by an extra correction that describes the cavitation energy, van der Waals and specific interactions. This term depends on atomic parameters that were adjusted using a reference dataset.
@@ -9,11 +7,13 @@
 ESE-PM7 is essentially an adaptation of our [uESE](https://github.com/vyboishchikov/ESE) [3] and xESE [4] methods for semi-empirical charges.
 
 The ESE-PM7 solvation free energy can be calculated by the program ESE-PM7:
-
 - [ESE-PM7.exe](https://github.com/vyboishchikov/ESE-PM7/blob/main/ESE-PM7.exe) – Windows version  
 - [ESE-PM7.x](https://github.com/vyboishchikov/ESE-PM7/blob/main/ESE-PM7.x) – Linux version  
 
 These can be downloaded free of charge. The ESE-PM7 program can be called from the command line as follows:
+```
+ESE-PM7.exe input-file -solvent solvent
+```
 
 An example of an input file is [available here](https://github.com/vyboishchikov/ESE-PM7/blob/main/input_example_i153.PM7-charges).
 
